@@ -13,6 +13,51 @@ struct ContentView: View {
     @Query private var items: [Item]
 
     var body: some View {
+        ZStack{
+            Color(red: 0.0, green: 1.0, blue: 1.0)
+                .ignoresSafeArea()
+            Text("Content View")
+             
+        }
+        
+        VStack(alignment: .leading, spacing:15) { //Vertical stack, code location is location on the app
+            
+            
+            
+        
+            HStack(alignment: .center){
+            
+                Image("Calm")
+                    .resizable() //
+                    .aspectRatio(contentMode:.fit) //fits image to the aspect ratio
+                    .cornerRadius(20) //rounds the image corners
+    
+           
+            }
+            VStack(alignment: .trailing) {
+                HStack{ //Horizontality, anything in here is in the same horizontal row
+                    Text("Mind")
+                        .font(.title)
+                        .fontWeight(/*@START_MENU_TOKEN@*/.bold/*@END_MENU_TOKEN@*/)
+                    Spacer()
+                    HStack{
+                        Image(systemName: "star.fill")//SF symbol, search it up for library of symbols
+                        Image(systemName: "star.fill")
+                        Image(systemName: "star.fill")
+                        Image(systemName: "star.fill")
+                    }
+                    .foregroundColor(.orange)
+                    
+                        
+                }
+                Text("Recommended")
+            }
+            
+            Text("Do not forget to take care of yourself :)")
+           
+        }
+            .background(Rectangle().foregroundColor(.blue))
+            .padding()
         NavigationSplitView {
             List {
                 ForEach(items) { item in
@@ -43,7 +88,7 @@ struct ContentView: View {
             Text("Select an item")
         }
     }
-
+       
     private func addItem() {
         withAnimation {
             let newItem = Item(timestamp: Date())

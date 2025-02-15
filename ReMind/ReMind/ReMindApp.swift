@@ -25,7 +25,7 @@ struct ReMindApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            SplashView() //This is what determins what launches first
         }
         .modelContainer(sharedModelContainer)
     }

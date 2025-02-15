@@ -12,6 +12,9 @@
 		892F75882D61246F00056793 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 892F75872D61246F00056793 /* Item.swift */; };
 		892F758A2D61247500056793 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 892F75892D61247500056793 /* Assets.xcassets */; };
 		892F758E2D61247500056793 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 892F758D2D61247500056793 /* Preview Assets.xcassets */; };
+		892F75952D614E6400056793 /* Page2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 892F75942D614E6300056793 /* Page2.swift */; };
+		892F75972D61526300056793 /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 892F75962D61526300056793 /* SplashView.swift */; };
+		892F75992D61576900056793 /* MainScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 892F75982D61576800056793 /* MainScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		892F75892D61247500056793 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		892F758B2D61247500056793 /* ReMind.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ReMind.entitlements; sourceTree = "<group>"; };
 		892F758D2D61247500056793 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		892F75942D614E6300056793 /* Page2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page2.swift; sourceTree = "<group>"; };
+		892F75962D61526300056793 /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
+		892F75982D61576800056793 /* MainScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +66,9 @@
 				892F75892D61247500056793 /* Assets.xcassets */,
 				892F758B2D61247500056793 /* ReMind.entitlements */,
 				892F758C2D61247500056793 /* Preview Content */,
+				892F75942D614E6300056793 /* Page2.swift */,
+				892F75962D61526300056793 /* SplashView.swift */,
+				892F75982D61576800056793 /* MainScreen.swift */,
 			);
 			path = ReMind;
 			sourceTree = "<group>";
@@ -142,7 +151,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				892F75992D61576900056793 /* MainScreen.swift in Sources */,
 				892F75862D61246F00056793 /* ContentView.swift in Sources */,
+				892F75952D614E6400056793 /* Page2.swift in Sources */,
+				892F75972D61526300056793 /* SplashView.swift in Sources */,
 				892F75882D61246F00056793 /* Item.swift in Sources */,
 				892F75842D61246F00056793 /* ReMindApp.swift in Sources */,
 			);
