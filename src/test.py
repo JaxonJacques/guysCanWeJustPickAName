@@ -35,6 +35,7 @@ class card_Game():
         # SOMEONE DO THIS I CANT IMPORT OPENAI /shrug
 
     def play(self):
+        pass
         
     
     
